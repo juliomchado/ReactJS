@@ -7,10 +7,8 @@ export default props => {
         return child !== elseChild
     })
 
-    console.log(elseChild)
     if (props.test) {
         return ifChildren
-
     } else if(elseChild){
         return elseChild
     }
